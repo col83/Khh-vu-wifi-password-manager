@@ -23,7 +23,6 @@ kotlin = "2.4.21"
 kotlinxSerialization = "1.13.0"
 ksp = "2.3.12"
 ktfmt = "0.28.0"
-leakcanary = "3.0-alpha-9"
 libsu = "6.0.0"
 lifecycle = "2.11.0"
 material3 = "1.5.0-rc01"
@@ -77,7 +76,6 @@ koin-compose = { group = "io.insert-koin", name = "koin-compose" }
 koin-compose-viewmodel = { group = "io.insert-koin", name = "koin-compose-viewmodel" }
 koin-core = { group = "io.insert-koin", name = "koin-core" }
 kotlinx-serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "kotlinxSerialization" }
-leakcanary-android = { module = "com.squareup.leakcanary:leakcanary-android", version.ref = "leakcanary" }
 libsu-core = { module = "com.github.topjohnwu.libsu:core", version.ref = "libsu" }
 libsu-service = { module = "com.github.topjohnwu.libsu:service", version.ref = "libsu" }
 lifecycle-viewmodel-compose = { module = "org.jetbrains.androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycle" }
